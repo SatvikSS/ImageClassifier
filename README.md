@@ -8,13 +8,21 @@ The project includes a simple script that trains the model on the dataset, visua
 
 ## Features
 Deep Learning Model: A CNN model to classify images of cats and dogs.
+
 Dataset: Large Kaggle dataset for training and testing the model.
+
 Training and Evaluation: Model training with real-time evaluation and accuracy plots.
+
 Model Performance: Achieved a validation accuracy of around 85% after training.
+
 ## Technologies Used
+
 Backend: Python, TensorFlow, Keras
+
 Modeling: Convolutional Neural Networks (CNN)
+
 Image Processing: OpenCV
+
 Visualization: Matplotlib
 
 ## Dataset
@@ -24,9 +32,13 @@ The data was downloaded from kaggle. Link for data: https://www.kaggle.com/datas
 The CNN model consists of:
 
 Convolutional Layers: Three convolutional layers with ReLU activation and batch normalization.
+
 MaxPooling Layers: Used to reduce the spatial dimensions.
+
 Fully Connected Layers: To make the final predictions.
+
 Output Layer: A sigmoid activation function to classify images as either cats or dogs.
+
 
 ## Results
 The CNN model achieved the following results after training for 10 epochs:
